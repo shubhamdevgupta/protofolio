@@ -195,7 +195,7 @@ export default function Portfolio() {
               </h1>
               <div className="flex items-center justify-center gap-2 text-lg font-semibold text-blue-600">
                 <Zap className="w-5 h-5" />
-                <span>Android • iOS • Flutter • React Native</span>
+                <span>Android • iOS • Flutter • Jetpack Compose</span>
                 <Zap className="w-5 h-5" />
               </div>
             </div>

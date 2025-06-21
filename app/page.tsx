@@ -527,8 +527,6 @@ export default function Portfolio() {
             <a
               href="/resume/Shubham_Gupta_Resume.pdf"
               download="Shubham_Gupta_Resume.pdf"
-              target="_blank"
-              rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 h-12 px-6 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-medium shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-sm sm:text-base"
             >
               <Download className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -588,29 +586,31 @@ export default function Portfolio() {
               <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
                 I am a dedicated{" "}
                 <span className="font-semibold text-blue-600">Mobile Application Developer and Team Leader</span> with
-                extensive experience in managing cross-functional teams of 10-12 developers. Currently working at{" "}
+                extensive experience in creating high-performance applications for Android and iOS. Currently working at{" "}
                 <span className="font-semibold text-purple-600">ADG Online Solution</span>, I'm spearheading the
-                development of hybrid applications for pan-India level projects.
+                development of hybrid applications for pan-India level projects including Nal Jal Sewa.
               </p>
               <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
                 My expertise spans across{" "}
                 <span className="font-semibold text-green-600">
-                  Java, Kotlin, Flutter, Jetpack Compose, and SwiftUI
+                  Java, Kotlin, Dart, Flutter, Jetpack Compose, and SwiftUI
                 </span>
-                , positioning me at the forefront of modern mobile development technologies.
+                , with strong collaboration skills that enable me to contribute effectively to team-driven projects.
               </p>
             </div>
             <div className="space-y-3 sm:space-y-4">
               <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
-                I specialize in{" "}
+                I have successfully worked on{" "}
                 <span className="font-semibold text-orange-600">
-                  government applications, service-based solutions, and enterprise systems
+                  government applications, fintech solutions, and educational platforms
                 </span>
-                , with a proven track record of delivering scalable solutions across multiple sectors.
+                , always focusing on delivering exceptional user experiences and maintaining high code quality
+                standards.
               </p>
               <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
-                My vision is to become a <span className="font-semibold text-pink-600">Chief Technology Officer</span>{" "}
-                and lead the transformation of mobile development practices in the industry.
+                I am constantly aiming to enhance my technical capabilities and stay updated with the latest
+                <span className="font-semibold text-pink-600"> mobile development trends and technologies</span>, with
+                aspirations to become a technology leader in the industry.
               </p>
             </div>
           </div>
@@ -636,9 +636,9 @@ export default function Portfolio() {
             </div>
             <div className="text-center p-3 sm:p-4 md:p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl sm:rounded-2xl">
               <div className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
-                5
+                MCA
               </div>
-              <div className="text-xs sm:text-sm text-gray-600 font-medium">States Covered</div>
+              <div className="text-xs sm:text-sm text-gray-600 font-medium">Computer Engineering</div>
             </div>
           </div>
 
@@ -665,6 +665,41 @@ export default function Portfolio() {
                   </CardContent>
                 </Card>
               ))}
+            </div>
+          </div>
+
+          {/* Education */}
+          <div className="pt-8 sm:pt-12">
+            <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">Education</h3>
+            <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
+              <Card className="border-0 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
+                <CardContent className="p-4 sm:p-6 space-y-3">
+                  <div className="p-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white w-fit">
+                    <Award className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm sm:text-base text-gray-800">
+                      Master of Computer Applications (MCA)
+                    </h4>
+                    <p className="text-xs sm:text-sm text-gray-600">Computer Engineering</p>
+                    <p className="text-xs text-gray-500">Indira Gandhi National Open University</p>
+                  </div>
+                </CardContent>
+              </Card>
+              <Card className="border-0 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
+                <CardContent className="p-4 sm:p-6 space-y-3">
+                  <div className="p-3 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-500 text-white w-fit">
+                    <Award className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-sm sm:text-base text-gray-800">
+                      Bachelor of Computer Applications (BCA)
+                    </h4>
+                    <p className="text-xs sm:text-sm text-gray-600">Computer Science & Engineering</p>
+                    <p className="text-xs text-gray-500">MJPR University of Science and Technology</p>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
